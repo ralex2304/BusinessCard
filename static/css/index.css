@@ -1,0 +1,67 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1c1e21;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: white;
+	}
+}
+
+
+body {
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.img-round{
+	border-radius: 50%;
+	width: 15em;
+	margin-top: 5em;
+	margin-bottom: 2.5em;
+}
+
+.a-social{
+	display: block;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding: 10px;
+	margin-top: 1em;
+	text-align: center;
+	background-color: rgb(0,162,232);
+	color: white;
+	border-radius: 0.25em;
+	width: 10em;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.a-social:hover{
+	background-color: rgb(0,178,255);
+}
+
+.a-social>span{
+	text-decoration: none;
+	padding-left: 1.25em;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-size: 1em;
+}
+
+.img-social-icon{
+	height: 1em;
+}
+
+#vk>span{
+	background-image: url("../../static/img/vk.svg");
+}
+
+#telegram>span{
+	background-image: url("../../static/img/telegram.svg");
+}
+
+#github>span{
+	background-image: url("../../static/img/github.svg");
+}
